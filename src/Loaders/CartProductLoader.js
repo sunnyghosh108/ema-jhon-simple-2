@@ -16,7 +16,7 @@ for (const id in storedCart){
         savedCart.push(addedProduct);
     }
 }
-// if you need to send two things  
+// if you need to send two things 
 // return [products,savedCart];
 // another option:object hisabe
 //
