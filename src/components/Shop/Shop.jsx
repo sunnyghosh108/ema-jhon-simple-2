@@ -64,7 +64,7 @@ useEffect(()=>{
                 {/* <h4>Order Summary</h4>
                 <p>Selected Items: {cart.length}</p> */}
                 <Cart cart={cart}handleClearCart={handleClearCart}>
-                    <Link to="/orders">
+                    <Link className='proceed-link' to="/orders">
                         <button className='btn-proceed'>Review Order</button>
                     </Link>
                 </Cart>
